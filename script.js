@@ -6,7 +6,7 @@ const person = {
 };
 
 var team = players;
-var team1 = players.slice();
+var team1 = [].concat(players);
 
 var cap1 = person.slice();
 
